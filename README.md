@@ -1,4 +1,4 @@
-# 🎬 CineMatch AI
+# 🎬 CineMatch AI-Movie recommendation system
 
 **A machine learning-based movie recommendation system that helps users discover movies based on movie similarity, genres, tags, and ratings.**
 
