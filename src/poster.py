@@ -1,17 +1,17 @@
+import os
 import requests
+from dotenv import load_dotenv
 
-API_KEY = "YOUR_TMDB_API_KEY"
+load_dotenv()
+API_KEY = os.getenv("OMDB_API_KEY")
 
 def get_poster(movie_name):
-    url = f"https://api.themoviedb.org/3/search/movie?api_key={API_KEY}&query={movie_name}"
-
+    url = f"http://www.omdbapi.com/?apikey={API_KEY}&t={movie_name}"
+    
     response = requests.get(url)
     data = response.json()
-
-    if data.get("results"):
-        poster_path = data["results"][0].get("poster_path")
-
-        if poster_path:
-            return f"https://image.tmdb.org/t/p/w500{poster_path}"
-
+    
+    if data.get("Response") == "True" and data.get("Poster") != "N/A":
+        return data.get("Poster")
+            
     return None
