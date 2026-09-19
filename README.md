@@ -107,7 +107,7 @@ The system processes relevant movie information into features and calculates sim
 
 📓 Notebooks
 
-"Eda.ipynb"
+Eda.ipynb
 
 Contains the exploratory data analysis performed on the movie dataset, including:
 
@@ -117,17 +117,17 @@ Contains the exploratory data analysis performed on the movie dataset, including
 - Movie statistics
 - Data patterns and observations
 
-"2_model_explanation.ipynb"
+2_model_explanation.ipynb
 
 Contains the development and explanation of the recommendation model, including feature processing and similarity-based recommendation.
 
 🧩 Source Code
 
-"Recommendor.py"
+Recommendor.py
 
 Contains the core recommendation logic used to generate movie recommendations.
 
-"Poster.py"
+Poster.py
 
 Handles movie poster retrieval and integration into the application.
 
@@ -167,3 +167,8 @@ streamlit run App.py
 🎯 Objective
 
 The goal of CineMatch AI is to demonstrate how machine learning, data analysis, recommendation algorithms, and API integration can be combined to create an interactive movie discovery platform.
+
+
+
+
+
