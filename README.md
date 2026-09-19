@@ -32,6 +32,7 @@ The system also integrates movie posters to provide a more engaging movie discov
 
 </p>📂 Project Structure
 
+'''
 CineMatch-AI/
 │
 ├── Data/
@@ -53,7 +54,7 @@ CineMatch-AI/
 ├── Requirements.txt
 ├── .gitignore
 └── README.md
-
+'''
 «"Data/README.md" contains the original dataset documentation and licensing information.» 
 
 📊 Dataset
