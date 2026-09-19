@@ -1,8 +1,8 @@
-🎬 CineMatch AI
+# 🎬 CineMatch AI
 
-«A machine learning-based movie recommendation system that helps users discover movies based on movie similarity, genres, tags, and ratings.»
+**A machine learning-based movie recommendation system that helps users discover movies based on movie similarity, genres, tags, and ratings.**
 
-🚀 Overview
+## 🚀 **Overview**
 
 CineMatch AI is a movie recommendation system built using Python and machine learning techniques.
 
@@ -10,7 +10,7 @@ The project analyzes movie information, user ratings, genres, and tags to identi
 
 The system also integrates movie posters to provide a more engaging movie discovery experience.
 
-✨ Features
+## ✨ **Features**
 
 - 🎬 Movie recommendations
 - ⭐ Rating analysis
@@ -21,14 +21,45 @@ The system also integrates movie posters to provide a more engaging movie discov
 - 📊 Exploratory Data Analysis
 - 🌐 Interactive Streamlit application
 
-🛠️ Tech Stack
+## 🛠️ **Tech Stack**
 
-<p align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="50" height="50" alt="Python"/>
+<p align="center">
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="50" height="50" alt="Python"/>
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg" width="50" height="50" alt="Pandas"/>
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/numpy/numpy-original.svg" width="50" height="50" alt="NumPy"/>
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/scikitlearn/scikitlearn-original.svg" width="50" height="50" alt="Scikit-learn"/>
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jupyter/jupyter-original.svg" width="50" height="50" alt="Jupyter"/>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/streamlit/streamlit-original.svg" width="50" height="50" alt="Streamlit"/></p><p align="center">Python • Pandas • NumPy • Scikit-learn • Jupyter Notebook • Streamlit • OMDb API
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/streamlit/streamlit-original.svg" width="50" height="50" alt="Streamlit"/>
+</p>
+
+<p align="center">
+Python • Pandas • NumPy • Scikit-learn • Jupyter Notebook • Streamlit • OMDb API
+</p>
+
+## 📂 **Project Structure**
+
+```text
+CineMatch-AI/
+│
+├── Data/
+│   ├── README.md
+│   ├── Links.csv
+│   ├── Movies.csv
+│   ├── Ratings.csv
+│   └── Tags.csv
+│
+├── Notebooks/
+│   ├── Eda.ipynb
+│   └── 2_model_explanation.ipynb
+│
+├── Src/
+│   ├── Poster.py
+│   └── Recommendor.py
+│
+├── App.py
+├── Requirements.txt
+├── .gitignore
+└── README.md
 
 </p>📂 Project Structure
 
