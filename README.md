@@ -60,39 +60,14 @@ CineMatch-AI/
 ├── Requirements.txt
 ├── .gitignore
 └── README.md
-
-</p>📂 Project Structure
-
-```text
-CineMatch-AI/
-│
-├── Data/
-│   ├── README.md
-│   ├── Links.csv
-│   ├── Movies.csv
-│   ├── Ratings.csv
-│   └── Tags.csv
-│
-├── Notebooks/
-│   ├── Eda.ipynb
-│   └── 2_model_explanation.ipynb
-│
-├── Src/
-│   ├── Poster.py
-│   └── Recommendor.py
-│
-├── App.py
-├── Requirements.txt
-├── .gitignore
-└── README.md
 ```
 «"Data/README.md" contains the original dataset documentation and licensing information.» 
 
-📊 Dataset
+## 📊 **Dataset**
 
 CineMatch AI uses movie data containing information about movies, user ratings, tags, and external movie identifiers.
 
-Movies.csv
+### **Movies.csv**
 
 Contains movie information such as:
 
@@ -100,7 +75,7 @@ Contains movie information such as:
 - Movie title
 - Genres
 
-Ratings.csv
+### **Ratings.csv**
 
 Contains user rating information:
 
@@ -109,16 +84,17 @@ Contains user rating information:
 - Rating
 - Timestamp
 
-Tags.csv
+### **Tags.csv**
 
 Contains user-generated tags associated with movies.
 
-Links.csv
+### **Links.csv**
 
 Contains external identifiers associated with movies.
 
-🧠 Recommendation Pipeline
+## 🧠 **Recommendation Pipeline**
 
+```text
 Movie Dataset
       ↓
 Data Preprocessing
@@ -134,12 +110,13 @@ Top Recommendations
 Poster Integration
       ↓
 Streamlit Application
+```
 
 The system processes relevant movie information into features and calculates similarity between movies to generate recommendations for the selected movie.
 
-📓 Notebooks
+## 📓 **Notebooks**
 
-Eda.ipynb
+### **Eda.ipynb**
 
 Contains the exploratory data analysis performed on the movie dataset, including:
 
@@ -149,58 +126,65 @@ Contains the exploratory data analysis performed on the movie dataset, including
 - Movie statistics
 - Data patterns and observations
 
-2_model_explanation.ipynb
+### **2_model_explanation.ipynb**
 
 Contains the development and explanation of the recommendation model, including feature processing and similarity-based recommendation.
 
-🧩 Source Code
+## 🧩 **Source Code**
 
-Recommendor.py
+### **Recommendor.py**
 
 Contains the core recommendation logic used to generate movie recommendations.
 
-Poster.py
+### **Poster.py**
 
 Handles movie poster retrieval and integration into the application.
 
-🖥️ Application
+## 🖥️ **Application**
 
-"App.py" contains the Streamlit application through which users can interact with CineMatch AI and explore movie recommendations.
+`App.py` contains the Streamlit application through which users can interact with CineMatch AI and explore movie recommendations.
 
-⚙️ Installation
+## ⚙️ **Installation**
 
-1. Clone the repository
+### **1. Clone the repository**
 
+```bash
 git clone https://github.com/arjunsrivatsa13/CineMatch-AI.git
 cd CineMatch-AI
+```
 
-2. Create a virtual environment
+### **2. Create a virtual environment**
 
+```bash
 python -m venv venv
+```
 
 Activate it:
 
-macOS / Linux
+**macOS / Linux**
 
+```bash
 source venv/bin/activate
+```
 
-Windows
+**Windows**
 
+```bash
 venv\Scripts\activate
+```
 
-3. Install dependencies
+### **3. Install dependencies**
 
+```bash
 pip install -r Requirements.txt
+```
 
-4. Run the application
+### **4. Run the application**
 
+```bash
 streamlit run App.py
+```
 
-🎯 Objective
+## 🎯 **Objective**
 
 The goal of CineMatch AI is to demonstrate how machine learning, data analysis, recommendation algorithms, and API integration can be combined to create an interactive movie discovery platform.
-
-
-
-
-
