@@ -54,6 +54,7 @@ CineMatch-AI/
 ├── Requirements.txt
 ├── .gitignore
 └── README.md
+```text
 «"Data/README.md" contains the original dataset documentation and licensing information.» 
 
 📊 Dataset
