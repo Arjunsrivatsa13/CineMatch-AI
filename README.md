@@ -2,8 +2,7 @@
 
 **A machine learning-based movie recommendation system that helps users discover movies based on movie similarity, genres, tags, and ratings.**
 
-<img width="1173" height="752" alt="Screenshot 2026-09-20 at 7 34 03 PM" src="https://github.com/user-attachments/assets/4c88ea10-b445-4b2d-b34b-e41e19166c19" />
-
+<img width="1470" height="833" alt="Screenshot 2026-09-20 at 7 42 11 PM" src="https://github.com/user-attachments/assets/ba39c0b8-c792-4180-81cc-9636f1afadd4" />
 
 ## 🚀 **Overview**
 
